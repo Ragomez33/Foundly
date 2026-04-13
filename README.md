@@ -1,16 +1,17 @@
 # Foundly 💰
+> "No es solo cuánto tienes, sino cuánto te queda después de tus planes."
+> 
+**Foundly** es una aplicación móvil personal diseñada para gestionar finanzas de manera sencilla, visual y eficiente. Nacida de la necesidad de tener un control real sobre los flujos de dinero sin complicaciones innecesarias. Te permite transformar el caos de las notas y las calculadoras en un sistema de **planificación proyectada**. 
 
-**Foundly** es una aplicación móvil personal diseñada para gestionar finanzas de manera sencilla, visual y eficiente. Nacida de la necesidad de tener un control real sobre los flujos de dinero sin complicaciones innecesarias.
+A diferencia de otras apps, Foundly se enfoca en el **Saldo Proyectado**, permitiéndote anotar movimientos futuros (como ese sueldo que aún no llega o ese alquiler que aún no pagas) para que siempre sepas tu disponibilidad real de dinero.
 
-## 🚀 Tecnologías
+## 🚀 Stack Tecnológico (2026)
 
-Este proyecto está construido con el stack moderno de mobile para 2026:
-
-* **Framework:** [Expo](https://expo.dev/) (React Native)
-* **Routing:** [Expo Router](https://docs.expo.dev/router/introduction/) (File-based routing)
-* **UI Library:** [Gluestack UI](https://gluestack.io/ui) (Themed components)
-* **Storage:** [@react-native-async-storage/async-storage](https://react-native-async-storage.github.io/async-storage/)
-* **Icons:** [Lucide React Native](https://lucide.dev/)
+* **Engine:** [Expo](https://expo.dev/) (SDK 54+)
+* **UI & Layout:** [Gluestack UI](https://gluestack.io/) (Utilizando Stacks, Boxes e Iconografía moderna)
+* **Navegación:** [Expo Router](https://docs.expo.dev/router/introduction/) (Navegación basada en archivos)
+* **Persistencia:** [@react-native-async-storage/async-storage](https://react-native-async-storage.github.io/async-storage/)
+* **Manejo de Fechas:** [Day.js](https://day.js.org/) (Ligero y potente)
 
 ## ✨ Características actuales
 
@@ -50,6 +51,9 @@ Este proyecto está construido con el stack moderno de mobile para 2026:
 - [ ] Gráficas dinámicas con SVG para visualizar el "Burn Rate".
 - [ ] Metas de Ahorro con sistema de logros.
 - [ ] Modo de bloqueo de dinero (Ahorro forzado).
-
+- [ ] **Módulo de Proyecciones:** Implementar estados `pending` vs `completed` para diferenciar saldo real de planificado.
+- [ ] **Acciones Rápidas:** Botón para "Ejecutar" (marcar como pagado) desde la lista.
+- [ ] **Filtros Mensuales:** Visualización inteligente del mes en curso.
+- [ ] **Confirmaciones:** Alertas de seguridad para evitar borrados accidentales.
 ---
 Hecho con ☕ y mucha paciencia con las dependencias.
